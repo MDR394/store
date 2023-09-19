@@ -1,0 +1,35 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px 10px;
+  font-family: sans-serif;
+}
+.img_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_img {
+  height: 200px;
+  width: fit-content;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.product_title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.add_to_cart_btn {
+  margin-top: 10px;
+  width: fit-content;
+  padding: 3px 5px;
+  background-color: #f79b34;
+  cursor: pointer;
+}
